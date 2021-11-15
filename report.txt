@@ -1,0 +1,6 @@
+Report 
+1. The program compiles on both gcc and clang compiler 
+2. This ./tldmonitor 01/01/2000 01/09/2020 <large.txt | sort -n | diff - large.out does have an output
+3. However, ./tldmonitor 01/01/2000 01/09/2020 <small.txt | sort -n | diff - small.out outputs an error 
+Illegal input line: 30/07/2002 www.siemens.dediff: 
+
